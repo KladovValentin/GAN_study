@@ -25,7 +25,7 @@ device = "cuda:0" if torch.cuda.is_available() else "cpu"
 #ptrain = subprocess.run("python trainML.py NN")
 
 # Root directory for dataset
-dataroot = "./"
+dataroot = "D:\helpful\github\dataset1"
 # Number of workers for dataloader
 workers = 2
 # Batch size during training
